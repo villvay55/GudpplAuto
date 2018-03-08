@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Automation">
+<parameter name="appURL" value="http://qa.gudppl.com"/>
+<parameter name="browserType" value="firefox"/>
+  <test name="Gudppl Automation Event">
+     <classes>
+      <class name="com.gudppl.Testcases.StoryCreateTestCase"/>
+    </classes>
+  </test>
+</suite>
