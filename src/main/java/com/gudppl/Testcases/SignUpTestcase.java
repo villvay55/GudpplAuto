@@ -56,7 +56,7 @@ public class SignUpTestcase extends gudpplBaseSetup{
 		
 	}
 
-	@Test(priority=4)
+	@Test(priority=6)
 	public void testCeateStroy2() {
 		
 		
