@@ -29,31 +29,15 @@ public class SignUpTestcase extends gudpplBaseSetup{
 		driver = getDriver();
 	}
 	
+	
 	@Test(priority=1)
-	public void commTest() throws InterruptedException {
-		
-		BasePage basepage = new BasePage(driver);
-		String loginPageTile =  basepage.getPageTitle();
-		Assert.assertTrue(loginPageTile.toLowerCase().contentEquals("gudppl"));
-	
-		System.out.println("Gudppl Home Page");
-		
-		
-		SignInPage signInPage  = new SignInPage(driver);
-		signInPage.verifySigin("malaravan2070@gmail.com", "qazwsx");
-		Assert.assertTrue(signInPage.verifySignInPage());
-		
-		System.out.println("Successfully login gudppl");
-	}
-	
-	@Test(priority=2)
 	public void testSignUp() throws InterruptedException, IOException {
 		
 		SignUpLandPage signUpLandPage = new SignUpLandPage(driver);
 		signUpLandPage.signLand();
 		
 		SignUpPage signUpPage = new SignUpPage(driver);
-		signUpPage.fillSignUpDetails("viki", "Harry", "wiki@gmail.com", "aaaa", "750697470", "02/02/1990");
+		signUpPage.fillSignUpDetails("viki", "Harry", "wiki@gmail.com", "realpass", "750697470", "02/02/1990");
 		
 		
 	}

@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class SignUpLandPage {
 
-	private By signUpLnk = By.xpath("html/body/app-root/div/div[2]/app-login/section/div/p/a");
+	private By signUpLnk = By.xpath(".//*[text()='Sign up']");
 	private By singUpEmail = By.xpath("html/body/app-root/div/div[2]/app-signup/section/a[2]");
 	private By singUpFaceBook = By.xpath("html/body/app-root/div/div[2]/app-signup/section/a[1]");
 	
@@ -18,7 +18,10 @@ public class SignUpLandPage {
 	}
 	
 	public SignUpPage signLand() throws InterruptedException{
-		
+		synchronized (driver)
+		{
+		    driver.wait(5000);
+		}
 		ClickOnSignUpLnk();
 		
 		synchronized (driver)

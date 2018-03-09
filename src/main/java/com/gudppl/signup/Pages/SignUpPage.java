@@ -66,6 +66,13 @@ public class SignUpPage {
 		{
 		    driver.wait(3000);
 		}
+		
+		ClickOnSignUp();
+		
+		synchronized (driver)
+		{
+		    driver.wait(5000);
+		}
 	}
 	
 	public void enterfirstName(String firstName) {
