@@ -44,6 +44,16 @@ public class SignUpTestcase extends gudpplBaseSetup{
 		System.out.println("Successfully login gudppl");
 	}
 	
-	
+	@Test(priority=2)
+	public void testCeateStroy() throws InterruptedException, IOException {
+		
+		CreateStoryPage createStoryPage = new CreateStoryPage(driver);
+		createStoryPage.clickStory();
+		
+		CreatePage createPage = new CreatePage(driver);
+		createPage.createStory("Change World", "Ready to change world", "E:\\image\\ImageNoticeUpload\\ListingFundIamgeUpload4.exe");
+		
+		
+	}
 
 }
