@@ -1,5 +1,119 @@
 package com.gudppl.signup.Pages;
 
-public class signUpPage {
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 
+public class signUpPage {
+	
+	private By firstNameTxtBox = By.xpath(".//*[@id='signupS1FirstName']");
+	private By lastNameTxtBox = By.xpath(".//*[@id='signupS1LastName']");
+	private By emailTxtBox = By.xpath(".//*[@id='signupS1Email']");
+	private By passwordTxtBox = By.xpath(".//*[@id='exampleInputPassword2']");
+	private By phoneTxtBox = By.xpath("html/body/app-root/div/div[2]/app-step1/section/form/div/div/div[5]/div/div/input");
+	private By birthdayTxtBox = By.xpath("html/body/app-root/div/div[2]/app-step1/section/form/div/div/div[8]/div/p-calendar/span/input");
+	private By signBtn = By.xpath("html/body/app-root/div/div[2]/app-step1/section/form/button");
+	
+	
+	
+	private WebDriver driver;
+	
+	public signUpPage(WebDriver driver) {
+		
+		this.driver = driver;
+	}
+	
+	public void fillSignUpDetails(String firstName) {
+		
+		enterfirstName(firstName);
+		
+		
+		
+		
+	}
+	
+	public void enterfirstName(String firstName) {
+		
+		WebElement firstNameTxtBoxElement  = driver.findElement(firstNameTxtBox);
+	
+		if(firstNameTxtBoxElement.isDisplayed()) {
+			
+			firstNameTxtBoxElement.sendKeys(firstName);
+		}
+		
+	}
+	public void enterlastName(String lastName){
+			
+			WebElement lastNameTxtBoxElement  = driver.findElement(lastNameTxtBox);
+		
+			if(lastNameTxtBoxElement.isDisplayed()) {
+				
+				lastNameTxtBoxElement.sendKeys(lastName);
+			}
+			
+		}
+	
+	public void enterEmail(String email) {
+		
+		WebElement emailTxtBoxElement  = driver.findElement(emailTxtBox);
+	
+		if(emailTxtBoxElement.isDisplayed()) {
+			
+			emailTxtBoxElement.sendKeys(email);
+		}
+		
+	}
+	
+	public void enterPassword(String password) {
+		
+		WebElement passwordTxtBoxElement  = driver.findElement(passwordTxtBox);
+	
+		if(passwordTxtBoxElement.isDisplayed()) {
+			
+			passwordTxtBoxElement.sendKeys(password);
+		}
+		
+	}
+	
+	public void enterPhone(String phone) {
+		
+		WebElement phoneTxtBoxElement  = driver.findElement(phoneTxtBox);
+	
+		if(phoneTxtBoxElement.isDisplayed()) {
+		
+			phoneTxtBoxElement.sendKeys(phone);
+		}
+		
+	}
+
+	
+	public void enterBirthday(String birthday) {
+		
+		WebElement birthdayTxtBoxElement  = driver.findElement(birthdayTxtBox);
+	
+		if(birthdayTxtBoxElement.isDisplayed()) {
+			
+			birthdayTxtBoxElement.click();
+			birthdayTxtBoxElement.sendKeys(birthday);
+		}
+		
+	}
+	
+	public void ClickOnSignUp() {
+		
+		WebElement signBtnElement  = driver.findElement(signBtn);
+	
+		if(signBtnElement.isDisplayed()) {
+			
+			signBtnElement.click();
+			
+		}
+		
+	}
+	
+	
+	
+		
 }
+
+

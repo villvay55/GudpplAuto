@@ -18,7 +18,7 @@ public class TestUtil {
 		try {
 			
 			
-			reader = new Xls_Reader("C:/Eclipse/Automation/Automation/TestData/TestData.xlsx");
+			reader = new Xls_Reader("E:/TestData/TestData1.xlsx");
 		}catch (Exception e) {
 			
 			e.printStackTrace();
@@ -69,7 +69,7 @@ public class TestUtil {
 		try {
 			
 			
-			reader = new Xls_Reader("C:/Eclipse/Automation/Automation/TestData/TestData1.xlsx");
+			reader = new Xls_Reader("E:/TestData/TestData1.xlsx");
 		}catch (Exception e) {
 			
 			e.printStackTrace();
@@ -112,7 +112,7 @@ public class TestUtil {
 	try {
 		
 		
-		reader = new Xls_Reader("C:/Eclipse/Automation/Automation/TestData/TestData1.xlsx");
+		reader = new Xls_Reader("E:/TestData/TestData1.xlsx");
 	}catch (Exception e) {
 		
 		e.printStackTrace();
@@ -153,7 +153,7 @@ public class TestUtil {
 		try {
 			
 			
-			reader = new Xls_Reader("C:/Eclipse/Automation/Automation/TestData/TestData1.xlsx");
+			reader = new Xls_Reader("E:/TestData/TestData1.xlsx");
 		}catch (Exception e) {
 			
 			e.printStackTrace();

@@ -11,7 +11,8 @@ public class gudpplBaseSetup {
 
 	private WebDriver driver;
 	static String driverPath = "I:\\chromedriver";
-
+	
+	
 	public WebDriver getDriver() {
 		return driver;
 	}
@@ -43,6 +44,7 @@ public class gudpplBaseSetup {
 
 	private static WebDriver initFirefoxDriver(String appURL) {
 		System.out.println("Launching Firefox browser..");
+		System.setProperty("webdriver.gecko.driver","C:\\Users\\vijay\\Desktop\\geckodriver\\geckodriver.exe");
 		WebDriver driver = new FirefoxDriver();
 		driver.manage().window().maximize();
 		driver.navigate().to(appURL);

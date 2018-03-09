@@ -117,7 +117,7 @@ public class EventCreateTestcase extends gudpplBaseSetup{
 		public Object[][] getLoginData(){
 			
 			
-			excelDataConfig = new ExcelDataConfig("C:\\Eclipse\\Automation\\Automation\\TestData\\TestData1.xlsx");
+			excelDataConfig = new ExcelDataConfig("E:\\TestData\\TestData1.xlsx");
 			
 			
 			

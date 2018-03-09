@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite thread-count="-1" guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Automation]">
   <parameter name="appURL" value="http://qa.gudppl.com"/>
   <parameter name="browserType" value="firefox"/>
-  <test name="Gudppl Automation Event(failed)">
+  <test thread-count="5" name="Gudppl Automation Event(failed)">
     <classes>
       <class name="com.gudppl.Testcases.StoryCreateTestCase">
         <methods>
           <include name="tearDown"/>
           <include name="testCeateStroy"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="commTest"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.gudppl.Testcases.StoryCreateTestCase -->

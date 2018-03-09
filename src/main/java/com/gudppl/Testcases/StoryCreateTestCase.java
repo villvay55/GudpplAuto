@@ -17,7 +17,7 @@ import ExcelLib.ExcelDataConfig;
 
 public class StoryCreateTestCase extends gudpplBaseSetup{
 	
-	public ExcelDataConfig excelDataConfig;
+	//public ExcelDataConfig excelDataConfig;
 	
 	private WebDriver driver;
 	
