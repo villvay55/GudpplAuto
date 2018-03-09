@@ -15,4 +15,16 @@ public class signUpLandPage {
 		
 		this.driver = driver;
 	}
+	
+	public signUpPage signLand(){
+		
+		
+		
+		
+		return new signUpPage(driver);
+	
+	}
+	
+	
+	
 }

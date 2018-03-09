@@ -23,13 +23,49 @@ public class signUpPage {
 		this.driver = driver;
 	}
 	
-	public void fillSignUpDetails(String firstName) {
+	public void fillSignUpDetails(String firstName, String lastName,String email,String password, String phone,String birthday) throws InterruptedException {
 		
 		enterfirstName(firstName);
 		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
 		
+		enterlastName(lastName);
 		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
 		
+		enterEmail(email);
+		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
+		
+		enterPassword(password);
+		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
+		
+		enterPhone(phone);
+		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
+		
+		enterBirthday(birthday);
+		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
 	}
 	
 	public void enterfirstName(String firstName) {
