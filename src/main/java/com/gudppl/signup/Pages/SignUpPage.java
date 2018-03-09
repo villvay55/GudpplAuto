@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class signUpPage {
+public class SignUpPage {
 	
 	private By firstNameTxtBox = By.xpath(".//*[@id='signupS1FirstName']");
 	private By lastNameTxtBox = By.xpath(".//*[@id='signupS1LastName']");
@@ -18,7 +18,7 @@ public class signUpPage {
 	
 	private WebDriver driver;
 	
-	public signUpPage(WebDriver driver) {
+	public SignUpPage(WebDriver driver) {
 		
 		this.driver = driver;
 	}

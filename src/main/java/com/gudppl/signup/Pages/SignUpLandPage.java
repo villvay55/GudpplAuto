@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class signUpLandPage {
+public class SignUpLandPage {
 
 	private By signUpLnk = By.xpath("html/body/app-root/div/div[2]/app-login/section/div/p/a");
 	private By singUpEmail = By.xpath("html/body/app-root/div/div[2]/app-signup/section/a[2]");
@@ -12,12 +12,12 @@ public class signUpLandPage {
 	
 	private WebDriver driver;
 	
-	public signUpLandPage(WebDriver driver) {
+	public SignUpLandPage(WebDriver driver) {
 		
 		this.driver = driver;
 	}
 	
-	public signUpPage signLand() throws InterruptedException{
+	public SignUpPage signLand() throws InterruptedException{
 		
 		ClickOnSignUpLnk();
 		
@@ -33,7 +33,7 @@ public class signUpLandPage {
 		    driver.wait(3000);
 		}
 		
-		return new signUpPage(driver);
+		return new SignUpPage(driver);
 	
 	}
 	

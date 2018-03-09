@@ -12,6 +12,8 @@ import com.gudppl.event.Pages.BasePage;
 import com.gudppl.event.Pages.SignInPage;
 import com.gudppl.gudstories.Pages.CreatePage;
 import com.gudppl.gudstories.Pages.CreateStoryPage;
+import com.gudppl.signup.Pages.SignUpLandPage;
+import com.gudppl.signup.Pages.SignUpPage;
 
 import ExcelLib.ExcelDataConfig;
 
@@ -45,20 +47,16 @@ public class SignUpTestcase extends gudpplBaseSetup{
 	}
 	
 	@Test(priority=2)
-	public void testCeateStroy() throws InterruptedException, IOException {
+	public void testSignUp() throws InterruptedException, IOException {
 		
-		CreateStoryPage createStoryPage = new CreateStoryPage(driver);
-		createStoryPage.clickStory();
+		SignUpLandPage signUpLandPage = new SignUpLandPage(driver);
+		signUpLandPage.signLand();
 		
-		CreatePage createPage = new CreatePage(driver);
-		createPage.createStory("Change World", "Ready to change world", "E:\\image\\ImageNoticeUpload\\ListingFundIamgeUpload4.exe");
+		SignUpPage signUpPage = new SignUpPage(driver);
+		signUpPage.fillSignUpDetails("viki", "Harry", "wiki@gmail.com", "aaaa", "750697470", "02/02/1990");
 		
 		
 	}
 
-	@Test(priority=7)
-	public void testCeateStroy2() {
-		
-		
-	}
+	
 }
