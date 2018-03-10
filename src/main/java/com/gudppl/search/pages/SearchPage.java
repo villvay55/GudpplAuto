@@ -16,6 +16,11 @@ public class SearchPage {
 		this.driver = driver;
 	}
 	
+	public SearchResultPage search() {
+		
+		
+		return new SearchResultPage(driver);
+	}
 	
 	
 	public void enterSearchDetails(String searchData) {
