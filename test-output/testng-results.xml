@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="57243" started-at="2018-03-09T23:29:33Z" finished-at="2018-03-09T23:30:30Z">
+  <suite name="Automation" duration-ms="93324" started-at="2018-03-10T01:33:43Z" finished-at="2018-03-10T01:35:16Z">
     <groups>
     </groups>
-    <test name="Gudppl Automation Event" duration-ms="57243" started-at="2018-03-09T23:29:33Z" finished-at="2018-03-09T23:30:30Z">
+    <test name="Gudppl Automation Event" duration-ms="93324" started-at="2018-03-10T01:33:43Z" finished-at="2018-03-10T01:35:16Z">
       <class name="com.gudppl.Testcases.SignUpTestcase">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="initializeTestBaseSetup" is-config="true" duration-ms="20759" started-at="2018-03-09T23:29:33Z" finished-at="2018-03-09T23:29:53Z">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="initializeTestBaseSetup" is-config="true" duration-ms="25741" started-at="2018-03-10T01:33:43Z" finished-at="2018-03-10T01:34:09Z">
           <params>
             <param index="0">
               <value>
@@ -23,15 +23,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-09T23:29:53Z" finished-at="2018-03-09T23:29:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-10T01:34:09Z" finished-at="2018-03-10T01:34:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="testSignUp()[pri:1, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="testSignUp" duration-ms="36120" started-at="2018-03-09T23:29:53Z" finished-at="2018-03-09T23:30:30Z">
+        <test-method status="PASS" signature="testSignUp()[pri:1, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="testSignUp" duration-ms="67288" started-at="2018-03-10T01:34:09Z" finished-at="2018-03-10T01:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSignUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="tearDown" is-config="true" duration-ms="345" started-at="2018-03-09T23:30:30Z" finished-at="2018-03-09T23:30:30Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.SignUpTestcase@38bc8ab5]" name="tearDown" is-config="true" duration-ms="276" started-at="2018-03-10T01:35:16Z" finished-at="2018-03-10T01:35:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
