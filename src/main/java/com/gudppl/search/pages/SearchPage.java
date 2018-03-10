@@ -16,8 +16,21 @@ public class SearchPage {
 		this.driver = driver;
 	}
 	
-	public SearchResultPage search() {
+	public SearchResultPage search(String searchData) throws InterruptedException {
 		
+		enterSearchDetails(searchData);
+		
+		synchronized (driver)
+		{
+		    driver.wait(3000);
+		}
+		
+		clickOnSearch();
+		
+		synchronized (driver)
+		{
+		    driver.wait(5000);
+		}
 		
 		return new SearchResultPage(driver);
 	}
@@ -29,6 +42,7 @@ public class SearchPage {
 
 		if(searchTxtBoxElement.isDisplayed()) {
 			
+			searchTxtBoxElement.click();
 			searchTxtBoxElement.sendKeys(searchData);
 		}
 	}
