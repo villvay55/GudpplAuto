@@ -23,7 +23,7 @@ public class SignUpPage {
 		this.driver = driver;
 	}
 	
-	public void fillSignUpDetails(String firstName, String lastName,String email,String password, String phone,String birthday) throws InterruptedException {
+	public SelectCauses fillSignUpDetails(String firstName, String lastName,String email,String password, String phone,String birthday) throws InterruptedException {
 		
 		enterfirstName(firstName);
 		
@@ -73,6 +73,8 @@ public class SignUpPage {
 		{
 		    driver.wait(5000);
 		}
+		
+		return new SelectCauses(driver);
 	}
 	
 	public void enterfirstName(String firstName) {

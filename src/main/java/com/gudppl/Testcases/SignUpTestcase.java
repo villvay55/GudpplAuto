@@ -3,15 +3,11 @@ package com.gudppl.Testcases;
 import java.io.IOException;
 
 import org.openqa.selenium.WebDriver;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
-
 import com.gudppl.base.gudpplBaseSetup;
-import com.gudppl.event.Pages.BasePage;
-import com.gudppl.event.Pages.SignInPage;
-import com.gudppl.gudstories.Pages.CreatePage;
-import com.gudppl.gudstories.Pages.CreateStoryPage;
+import com.gudppl.signup.Pages.CreateAccount;
+import com.gudppl.signup.Pages.SelectCauses;
 import com.gudppl.signup.Pages.SignUpLandPage;
 import com.gudppl.signup.Pages.SignUpPage;
 
@@ -39,7 +35,11 @@ public class SignUpTestcase extends gudpplBaseSetup{
 		SignUpPage signUpPage = new SignUpPage(driver);
 		signUpPage.fillSignUpDetails("viki", "Harry", "wiki@gmail.com", "realpass", "750697470", "02/02/1990");
 		
+		SelectCauses selectCauses = new SelectCauses(driver);
+		selectCauses.selectCauses();
 		
+		CreateAccount createAccount = new CreateAccount(driver);
+		createAccount.createAccount();
 	}
 
 	
