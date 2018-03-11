@@ -5,15 +5,14 @@
   <parameter name="browserType" value="firefox"/>
   <test thread-count="5" name="Gudppl Automation Event(failed)">
     <classes>
-      <class name="com.gudppl.Testcases.SearchTestcase">
+      <class name="com.gudppl.Testcases.AdvanceFilterTestcase">
         <methods>
           <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="testSignUp"/>
           <include name="initializeTestBaseSetup"/>
-          <include name="commTest"/>
+          <include name="testAdvanceSearch"/>
         </methods>
-      </class> <!-- com.gudppl.Testcases.SearchTestcase -->
+      </class> <!-- com.gudppl.Testcases.AdvanceFilterTestcase -->
     </classes>
   </test> <!-- Gudppl Automation Event(failed) -->
 </suite> <!-- Failed suite [Automation] -->
