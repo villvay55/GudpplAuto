@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="92974" started-at="2018-03-11T13:51:44Z" finished-at="2018-03-11T13:53:17Z">
+  <suite name="Automation" duration-ms="68847" started-at="2018-03-12T10:29:37Z" finished-at="2018-03-12T10:30:46Z">
     <groups>
     </groups>
-    <test name="Gudppl Automation Event" duration-ms="92974" started-at="2018-03-11T13:51:44Z" finished-at="2018-03-11T13:53:17Z">
-      <class name="com.gudppl.Testcases.AdvanceFilterTestcase">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.AdvanceFilterTestcase@38bc8ab5]" name="initializeTestBaseSetup" is-config="true" duration-ms="34782" started-at="2018-03-11T13:51:44Z" finished-at="2018-03-11T13:52:19Z">
+    <test name="Gudppl Automation Event" duration-ms="68847" started-at="2018-03-12T10:29:37Z" finished-at="2018-03-12T10:30:46Z">
+      <class name="com.gudppl.Testcases.SearchTestcase">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.SearchTestcase@687080dc]" name="initializeTestBaseSetup" is-config="true" duration-ms="18529" started-at="2018-03-12T10:29:37Z" finished-at="2018-03-12T10:29:56Z">
           <params>
             <param index="0">
               <value>
@@ -23,23 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.AdvanceFilterTestcase@38bc8ab5]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-11T13:52:19Z" finished-at="2018-03-11T13:52:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.SearchTestcase@687080dc]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-12T10:29:56Z" finished-at="2018-03-12T10:29:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="commTest()[pri:1, instance:com.gudppl.Testcases.AdvanceFilterTestcase@38bc8ab5]" name="commTest" duration-ms="20533" started-at="2018-03-11T13:52:19Z" finished-at="2018-03-11T13:52:39Z">
+        <test-method status="PASS" signature="commTest()[pri:1, instance:com.gudppl.Testcases.SearchTestcase@687080dc]" name="commTest" duration-ms="20458" started-at="2018-03-12T10:29:56Z" finished-at="2018-03-12T10:30:16Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commTest -->
-        <test-method status="PASS" signature="testAdvanceSearch()[pri:2, instance:com.gudppl.Testcases.AdvanceFilterTestcase@38bc8ab5]" name="testAdvanceSearch" duration-ms="37404" started-at="2018-03-11T13:52:39Z" finished-at="2018-03-11T13:53:17Z">
+        <test-method status="PASS" signature="testSignUp()[pri:2, instance:com.gudppl.Testcases.SearchTestcase@687080dc]" name="testSignUp" duration-ms="29580" started-at="2018-03-12T10:30:16Z" finished-at="2018-03-12T10:30:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testAdvanceSearch -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.AdvanceFilterTestcase@38bc8ab5]" name="tearDown" is-config="true" duration-ms="235" started-at="2018-03-11T13:53:17Z" finished-at="2018-03-11T13:53:17Z">
+        </test-method> <!-- testSignUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.SearchTestcase@687080dc]" name="tearDown" is-config="true" duration-ms="264" started-at="2018-03-12T10:30:46Z" finished-at="2018-03-12T10:30:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.gudppl.Testcases.AdvanceFilterTestcase -->
+      </class> <!-- com.gudppl.Testcases.SearchTestcase -->
     </test> <!-- Gudppl Automation Event -->
   </suite> <!-- Automation -->
 </testng-results>

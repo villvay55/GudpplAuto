@@ -43,20 +43,20 @@ public ExcelDataConfig excelDataConfig;
 		
 		System.out.println("Successfully login gudppl");
 		
-		//SearchPage searchPage = new SearchPage(driver);
-		//searchPage.enterSearchDetails("h");
+	
 	}
 	
 	@Test(priority=2)
 	public void testSignUp() throws InterruptedException, IOException {
 		
 		SearchPage searchPage = new SearchPage(driver);
-		searchPage.enterSearchDetails("h");
+		searchPage.search("h");
 		
 		
-		/*SearchResultPage searchResultPage = new SearchResultPage(driver);
+		SearchResultPage searchResultPage = new SearchResultPage(driver);
+		searchResultPage.verifyTab();
 		
-		if(searchResultPage.verifyResultPage()){
+		/*if(searchResultPage.verifyResultPage()){
 			
 			System.out.println("There are result");
 		}else {
