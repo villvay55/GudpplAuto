@@ -4,7 +4,7 @@
 <parameter name="browserType" value="firefox"/>
   <test name="Gudppl Automation Event">
      <classes>
-      <class name="com.gudppl.Testcases.SearchTestcase"/>
+      <class name="com.gudppl.Testcases.CausesTestcase"/>
     </classes>
   </test>
 </suite>
