@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Automation" duration-ms="181316" started-at="2018-03-14T06:54:05Z" finished-at="2018-03-14T06:57:06Z">
+  <suite name="Automation" duration-ms="63891" started-at="2018-03-15T07:53:28Z" finished-at="2018-03-15T07:54:32Z">
     <groups>
     </groups>
-    <test name="Gudppl Automation Event" duration-ms="181316" started-at="2018-03-14T06:54:05Z" finished-at="2018-03-14T06:57:06Z">
-      <class name="com.gudppl.Testcases.CausesTestcase">
-        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.CausesTestcase@687080dc]" name="initializeTestBaseSetup" is-config="true" duration-ms="18461" started-at="2018-03-14T06:54:05Z" finished-at="2018-03-14T06:54:23Z">
+    <test name="Gudppl Automation Event" duration-ms="63891" started-at="2018-03-15T07:53:28Z" finished-at="2018-03-15T07:54:32Z">
+      <class name="com.gudppl.Testcases.OrgDetailsPage">
+        <test-method status="PASS" signature="initializeTestBaseSetup(java.lang.String, java.lang.String)[pri:0, instance:com.gudppl.Testcases.OrgDetailsPage@38bc8ab5]" name="initializeTestBaseSetup" is-config="true" duration-ms="22163" started-at="2018-03-15T07:53:28Z" finished-at="2018-03-15T07:53:50Z">
           <params>
             <param index="0">
               <value>
@@ -23,23 +23,23 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initializeTestBaseSetup -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.CausesTestcase@687080dc]" name="setUp" is-config="true" duration-ms="0" started-at="2018-03-14T06:54:23Z" finished-at="2018-03-14T06:54:23Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.gudppl.Testcases.OrgDetailsPage@38bc8ab5]" name="setUp" is-config="true" duration-ms="1" started-at="2018-03-15T07:53:50Z" finished-at="2018-03-15T07:53:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="commTest()[pri:1, instance:com.gudppl.Testcases.CausesTestcase@687080dc]" name="commTest" duration-ms="20468" started-at="2018-03-14T06:54:23Z" finished-at="2018-03-14T06:54:44Z">
+        <test-method status="PASS" signature="commTest()[pri:1, instance:com.gudppl.Testcases.OrgDetailsPage@38bc8ab5]" name="commTest" duration-ms="20481" started-at="2018-03-15T07:53:50Z" finished-at="2018-03-15T07:54:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- commTest -->
-        <test-method status="PASS" signature="testCauses()[pri:2, instance:com.gudppl.Testcases.CausesTestcase@687080dc]" name="testCauses" duration-ms="142089" started-at="2018-03-14T06:54:44Z" finished-at="2018-03-14T06:57:06Z">
+        <test-method status="PASS" signature="testOrgDetails()[pri:2, instance:com.gudppl.Testcases.OrgDetailsPage@38bc8ab5]" name="testOrgDetails" duration-ms="20938" started-at="2018-03-15T07:54:10Z" finished-at="2018-03-15T07:54:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCauses -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.CausesTestcase@687080dc]" name="tearDown" is-config="true" duration-ms="282" started-at="2018-03-14T06:57:06Z" finished-at="2018-03-14T06:57:06Z">
+        </test-method> <!-- testOrgDetails -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.gudppl.Testcases.OrgDetailsPage@38bc8ab5]" name="tearDown" is-config="true" duration-ms="288" started-at="2018-03-15T07:54:31Z" finished-at="2018-03-15T07:54:32Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.gudppl.Testcases.CausesTestcase -->
+      </class> <!-- com.gudppl.Testcases.OrgDetailsPage -->
     </test> <!-- Gudppl Automation Event -->
   </suite> <!-- Automation -->
 </testng-results>
